@@ -2,11 +2,15 @@
   "name": "parcel_project",
   "version": "1.0.0",
   "description": "",
-  "main": "Main.js",
   "scripts": {
-    "push": "git add . && git commit -m pushing && git push"
+    "push": "git add . && git commit -m pushing && git push",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
 }
