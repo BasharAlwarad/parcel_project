@@ -1,0 +1,12 @@
+{
+  "name": "parcel_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "push": "git add . && git commit -m pushing && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
